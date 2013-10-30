@@ -6,13 +6,7 @@ Installation:
 
 Using Package Control, install "ListOpenFiles"
 
-Or
 
-Open the Sublime Text Packages folder
-- OS X: ~/Library/Application Support/Sublime Text 3/Packages/
-- Windows: %APPDATA%/Sublime Text 3/Packages/
-- Linux: ~/.Sublime Text 3/Packages/
-clone this repo
 Add keymap for the command
 
 My preferred key binding:
