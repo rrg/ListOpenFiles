@@ -1,7 +1,9 @@
 List Open Files
+
 Generates a text list of all the open files in current sublime text window.
 
-Installation
+Installation:
+
 Using Package Control, install "ListOpenFiles"
 
 Or
@@ -14,9 +16,11 @@ clone this repo
 Add keymap for the command
 
 My preferred key binding:
-[
-    { "keys": ["ctrl+alt+l"], "command": "list_open_files" }
-]
 
-Command
+    [
+       { "keys": ["ctrl+alt+l"], "command": "list_open_files" }
+    ]
+
+Command:
+
 list_open_files: Creates a text list of all the open files in Sublime Text.
