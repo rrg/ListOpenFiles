@@ -9,6 +9,6 @@ class ListOpenFilesCommand(sublime_plugin.TextCommand):
         fileNames = ''
         for view in views:
             if view and view.file_name():
-                fileNames += os.path.basename(view.file_name())+'\n'
+                fileNames += os.path.abspath(view.file_name())+'\n'
 
         window.new_file().insert(edit, 0, "List of open files:\n\n"+fileNames)
